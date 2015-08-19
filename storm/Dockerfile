@@ -1,6 +1,6 @@
 FROM wurstmeister/base
 
-MAINTAINER Wurstmeister 
+MAINTAINER divthis 
 
 RUN wget -q -O - http://mirrors.sonic.net/apache/storm/apache-storm-0.10.0-beta1/apache-storm-0.10.0-beta1.tar.gz | tar -xzf - -C /opt
 
