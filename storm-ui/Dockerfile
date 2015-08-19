@@ -1,5 +1,5 @@
-FROM wurstmeister/storm:0.10.0-beta1
-MAINTAINER Wurstmeister
+FROM divthis/storm:0.10.0-beta1
+MAINTAINER divthis
 RUN /usr/bin/config-supervisord.sh ui
 
 EXPOSE 8080

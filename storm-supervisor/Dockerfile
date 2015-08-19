@@ -1,5 +1,5 @@
-FROM wurstmeister/storm:0.10.0-beta1
-MAINTAINER Wurstmeister
+FROM divthis/storm:0.10.0-beta1
+MAINTAINER divthis
 
 EXPOSE 6700
 EXPOSE 6701
